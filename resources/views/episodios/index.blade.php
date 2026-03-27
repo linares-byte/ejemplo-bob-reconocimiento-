@@ -7,6 +7,7 @@
 </head>
 <body>
 
+    
     @extends('layouts.app')
 
     @section('content')
@@ -33,6 +34,7 @@
     </div>
     <br>
     
+    @include('partials.alerts')
     <table class="table table-striped table-hover">
         <thead class="table table-dark">
             <tr>
